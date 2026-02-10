@@ -27,7 +27,7 @@ RUN cp /CLIProxyAPI/config.example.yaml /CLIProxyAPI/config.yaml
 
 WORKDIR /CLIProxyAPI
 
-EXPOSE 8317
+EXPOSE 8080
 
 ENV TZ=Asia/Shanghai
 
